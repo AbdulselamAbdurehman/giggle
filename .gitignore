@@ -34,3 +34,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# Ignore database files
+prisma/*.db
+prisma/*.db-journal
+
+# Ignore migrations if not needed
+prisma/migrations/
