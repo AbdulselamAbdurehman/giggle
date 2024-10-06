@@ -1,4 +1,4 @@
-const paths = {
+export const paths = {
     home() {
         return '/'
     },
@@ -15,5 +15,3 @@ const paths = {
         return `/topics/${topicSlug}/posts/${postId}`
     }
 }
-
-console.log(paths.home);
